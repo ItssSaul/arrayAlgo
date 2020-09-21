@@ -12,8 +12,8 @@ for(var i = 0; i <= testArr.length;i++){
 //Num 4, Sum 21
 
 var testArr = [6,3,5,1,2,4]
-for(var i = 0; i <= testArr.length;i++){
+for(var i = 0; i < testArr.length;i++){
     testArr[i] *= i;
-    console.log(testArr[i]);
 }
+console.log(testArr);
 //[0,3,10,3,8,20]
